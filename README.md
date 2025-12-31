@@ -35,3 +35,36 @@ All experiments are implemented in **Python using Jupyter Notebooks**.
 
 ## 🗂 Repository Structure
 
+Shape_Recognition/
+├─ geometric_shapes_dataset_split/ # Split dataset (zipped folder present)
+├─ geometric_shapes_classification.ipynb # Notebook for classification modeling
+├─ cnn_transfer_learning.ipynb # Notebook for transfer learning
+├─ train_aas.ipynb # Auxiliary notebook
+└─ README.md
+
+:contentReference[oaicite:4]{index=4}
+
+---
+
+## 💡 Getting Started
+
+These instructions will help you set up and run the project locally.
+
+---
+
+### 🛠 Requirements
+
+Make sure you have the following installed:
+
+- Python 3.8+
+- Jupyter Notebook or Jupyter Lab
+- TensorFlow / PyTorch (depending on model used in notebooks)
+- numpy, pandas, matplotlib (common ML libraries)
+
+You can install common dependencies using a `requirements.txt` like:
+
+```bash
+pip install -r requirements.txt
+git clone https://github.com/MarcellinoAcel/Shape_Recognition.git
+cd Shape_Recognition
+
